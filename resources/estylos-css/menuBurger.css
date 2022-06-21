@@ -58,4 +58,23 @@
     transition: all 500ms; 
     margin-left: 2% !important; 
 }
+.bars__menu-active{
+    position: fixed !important;
+}
+.cuerpo-active{
+    width:100vw;
+    max-width:100vw;
+    flex-basis:100vw;
+    background-color: black;
+  }
 
+
+/* QUERY -----------------------------------------------------------------*/
+@media only screen and (max-width: 720px){
+    .tabla-active{
+        width:100vw !important;
+        max-width:100vw  !important;
+        flex-basis:100vw  !important;
+      
+    }
+}

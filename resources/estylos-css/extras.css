@@ -32,7 +32,7 @@
 }
 @media (max-width:1366px) {
     .footerr{
-        bottom: -110vh !important;
+        bottom: -110vh;
         margin: 0 !important;
         padding-bottom: 10% !important;
     }

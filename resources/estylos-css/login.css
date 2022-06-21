@@ -91,3 +91,33 @@
   .ftp a:hover{
   color: #51D1F6;
   }
+  .logo{
+    position: absolute !important;
+    display: block;
+    left: 25vw !important;
+    width: 90%;
+    max-width:90% ;
+    flex-basis:90%;
+    height: 78px;
+    max-height: 78px;
+    min-height:78px ;
+    left: 0;
+    transform: translate(-50%,-120%);
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+}
+.logo img{
+    width: 50%;
+    max-width:50% ;
+    flex-basis: 50%;
+    height:30vh;
+    max-height:30vh;
+    min-height:30vh ;
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37) !important;
+    backdrop-filter: blur(2px) !important;
+    border: rgba(255,255,255, 0.18) !important;
+    
+}
